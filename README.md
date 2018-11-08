@@ -1,8 +1,8 @@
 # Aliyun-openapi-sdk
 
-### 项目介绍
+### 介绍
 
-此项目是从 aliyun-openapi-php-sdk 提取部分sdk而来
+基于 aliyun-openapi-php-sdk 提取部分sdk供项目调用
 
 ### 引用
 
