@@ -1,0 +1,30 @@
+{
+    "name": "cmstop/aliyun-openapi-php-sdk",
+    "description": "Alibaba Cloud SDK for PHP",
+    "type": "library",
+    "keywords": [
+        "Alibaba cloud open sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jade",
+            "email": "hmy940118@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=5.4"
+    },
+    "autoload":{
+        "classmap": [
+            "aliyun-php-sdk-core/"
+        ],
+        "psr-4":{
+            "nls_cloud_meta\\": "aliyun-php-sdk-nls-cloud-meta/nls_cloud_meta/",
+            "nls_filetrans\\": "aliyun-php-sdk-nls-filetrans/nls_filetrans/",
+        },
+        "files": [
+            "aliyun-php-sdk-core/Config.php"
+        ]
+    }
+}
