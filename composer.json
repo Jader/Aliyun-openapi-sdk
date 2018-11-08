@@ -1,9 +1,10 @@
 {
     "name": "cmstop/aliyun-openapi-php-sdk",
-    "description": "Alibaba Cloud SDK for PHP",
+    "description": "基于 aliyun-openapi-php-sdk 提取部分sdk供项目调用",
     "type": "library",
     "keywords": [
-        "Alibaba cloud open sdk"
+        "Alibaba cloud open sdk",
+        "CmsTop"
     ],
     "license": "MIT",
     "authors": [
